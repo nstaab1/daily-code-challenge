@@ -76,3 +76,12 @@ export class Vector {
     }
   };
 }
+
+// const a = new Vector([1, 2, 3]);
+// const b = new Vector([3, 4, 5]);
+// const c = new Vector([5, 6, 7, 8]);
+// const d = new Vector([1, 2, 3]);
+// // eslint-disable-next-line no-console
+// console.log(a.norm());
+
+// console.log(a.toString());
