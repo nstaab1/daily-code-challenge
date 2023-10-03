@@ -46,3 +46,11 @@ export function validISBN10(isbn: string): boolean {
 
   return summation % 11 === 0;
 }
+
+// console.log(validISBN10('1112223339'));
+// console.log(validISBN10('111222333'));
+// console.log(validISBN10('1112223339X'));
+// console.log(validISBN10('1234554321'));
+// console.log(validISBN10('1234512345'));
+// console.log(validISBN10('048665088X'));
+// console.log(validISBN10('X123456788'));

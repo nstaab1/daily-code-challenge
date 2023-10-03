@@ -5,13 +5,8 @@
 // import { evenOrOdd } from './daily-code-challenges/9-11-23';
 // import { makeLooper } from './daily-code-challenges/9-12-23';
 // import { Vector } from './daily-code-challenges/9-14-23';
+import binaryFingers from './daily-code-challenges/10-3-23';
 
-import { validISBN10 } from './daily-code-challenges/9-21-23';
+const val = binaryFingers('101');
 
-console.log(validISBN10('1112223339'));
-console.log(validISBN10('111222333'));
-console.log(validISBN10('1112223339X'));
-console.log(validISBN10('1234554321'));
-console.log(validISBN10('1234512345'));
-console.log(validISBN10('048665088X'));
-console.log(validISBN10('X123456788'));
+console.log(val);
